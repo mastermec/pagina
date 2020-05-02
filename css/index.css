@@ -1,0 +1,186 @@
+/* *{
+  width: tamaño;
+  height: tamaño;
+  padding-top: 10px;
+  margin: 10px;
+  border: 2px solid red;
+
+} */
+/* font-family: 'Allerta', sans-serif; */
+body{
+ font-family: 'Allerta', sans-serif;
+ margin: 0;
+}
+.button{
+  border-radius: 12px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 7px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  background: linear-gradient(to left,#fe344e,#ff7250);
+  text-decoration: none;
+}
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.title-a{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+}
+.title-b{
+
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+.dibujos1{
+  color: #1F313C;
+}
+.dibujos1 h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.portada{
+  background-image: url('../imagenes/sonardibujas1.jpg');
+  color: white;
+  padding: 50px;
+  height: 400px;
+
+}
+.portada h3 {
+  font-size: 23px;
+
+}
+.menu a {
+  text-decoration: none;
+}
+.portada button{
+  margin-bottom: 70px;
+}
+.menu{
+  font-size:  24px;
+  display: inline-block;
+}
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.logotipo{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.contenedor{
+
+  width: 800px;
+  margin: auto;
+}
+.dibujos1{
+  border: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #1F313C;
+  border-radius: 10px;
+}
+.dibujos1 ol {
+  padding: 0;
+}
+.derecha{
+  float: left;
+}
+.izquierda{
+  float: left;
+}
+.contenedorguitarra-b{
+  padding-left: 370px;
+  position: relative;
+  bottom: 90px;
+}
+.contenedorguitarra-a{
+  margin-left: 370px;
+}
+.footer{
+  background:  #273b47;
+}
+.logofoot{
+  border: 1px solid;
+}
+.contacto{
+  display: flex;
+  width: 190px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacto img {
+  display:block;
+  border: 0;
+}
+.contacto strong {
+  display: block;
+}
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+
+}
+.formulario{
+  display: flex;
+  width: 600px;
+  color: white;
+  padding: 50px 10px;
+}
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col1 {
+  margin-right: 25px;
+}
+.intereses label {
+  font-size: 12px;
+}
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+table{
+  width: 100%;
+}
+th{
+  background: #273b47;
+  color: white;
+}
+th,td {
+  padding: 20px;
+  text-align: left;
+}
+
+table,td,th{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+.menu li:before{
+  content: '○';
+  font-size:  15px;
+  line-height: 100px;
+  color: blue;
+}

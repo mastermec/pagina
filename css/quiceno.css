@@ -1,0 +1,10 @@
+tipo de selector
+/*{
+  propiedad: valor;
+  propiedad-2: valor;
+}*/
+
+*{
+  border: 1px solid red;
+  magin: 10px;
+}
